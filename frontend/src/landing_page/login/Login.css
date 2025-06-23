@@ -1,0 +1,88 @@
+/* Login.css */
+
+/* Form container styling */
+.form_container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+/* Logo spacing */
+.form_container img {
+  margin-bottom: 1rem;
+}
+
+/* Headings */
+.form_container h2 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #212529;
+  margin-bottom: 1.5rem;
+}
+
+/* Label styling */
+.form_container label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  color: #495057;
+}
+
+/* Input fields */
+.form_container input[type="email"],
+.form_container input[type="password"] {
+  width: 100%;
+  padding: 0.65rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  margin-bottom: 1.25rem;
+  background-color: #fefefe;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form_container input:focus {
+  border-color: #007BFF ;
+  box-shadow: 0 0 0 0.2rem rgba(221, 87, 28, 0.2);
+  outline: none;
+}
+
+/* Button styling */
+.form_container button {
+  width: 100%;
+  padding: 0.75rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  background-color: #007BFF ;
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form_container button:hover {
+  background-color: #007BFF;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px #007BFF;
+}
+
+/* Signup link */
+.form_container span {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #495057;
+}
+
+.form_container a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form_container a:hover {
+  text-decoration: underline;
+}

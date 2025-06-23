@@ -1,0 +1,6 @@
+/* Optional: in Universe.css or global */
+@media (max-width: 576px) {
+  .universe-card p {
+    font-size: 0.85rem;
+  }
+}

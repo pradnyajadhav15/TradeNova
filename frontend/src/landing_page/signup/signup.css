@@ -1,0 +1,74 @@
+/* signup.css */
+
+/* Container styling */
+.signup {
+  background-color: #f9fafd;
+  padding: 3rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+.signup h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.signup p {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+/* Form input labels */
+.signup .form-label {
+  color: #495057;
+  font-size: 0.95rem;
+}
+
+/* Input fields */
+.signup input[type="email"],
+.signup input[type="text"],
+.signup input[type="password"] {
+  height: 45px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+}
+
+.signup input:focus {
+  border-color: #007BFF ;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+/* Button styling */
+.signup button {
+  background-color:#007BFF;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.signup button:hover {
+  background-color: #007BFF ;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px #007BFF ;
+}
+
+/* Login redirect text */
+.signup span,
+.signup small {
+  color: #495057;
+  font-size: 0.9rem;
+}
+
+/* Privacy note */
+.signup p[style*="font-size: 13px"] {
+  color: #adb5bd;
+  font-size: 0.8rem !important;
+}
