@@ -41,23 +41,23 @@ It provides users with an interactive dashboard to track, analyze, and manage tr
 git clone https://github.com/pradnyajadhav15/TradeNova.git
 cd TradeNova
 
-Install dependencies for frontend:
+2. Install dependencies for frontend:
 cd frontend
 npm install
 
-Install dependencies for backend:
+3. Install dependencies for backend:
 cd ../backend
 npm install
 
-Create a .env file in the backend directory and add your environment variables:
+4. Create a .env file in the backend directory and add your environment variables:
 MONGODB_URI=<your_mongodb_connection_string>
 JWT_SECRET=<your_jwt_secret>
 
-Run the backend server:
+5. Run the backend server:
 cd ../backend
 npm start
 
-Run the frontend server:
+6. Run the frontend server:
 cd ../frontend
 npm start
 
